@@ -35,7 +35,7 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【东东小窝】'
+      - name: '运行 【【新】京豆摇一摇】'
         run: 
           node jd_bean_shake.js
         env:
