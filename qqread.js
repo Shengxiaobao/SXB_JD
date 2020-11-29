@@ -46,6 +46,12 @@ const cookiesArr = [
       "https://mqqapi.reader.qq.com/mqq/addReadTimeWithBid?scene=3001&refer=-1&bid=21058239&readTime=2209&read_type=0&conttype=1&read_status=0&chapter_info=%5B%7B%222%22%3A%7B%22readTime%22%3A2209%2C%22pay_status%22%3A0%7D%7D%5D&sp=-1",
       qqreadtimeheaderVal: JSON.stringify({"Accept":"*/*","Content-Type":"application/json","ywsession":"xqk81p5r38wpzlmu4xl80alowsyg4afh","Cookie":"ywguid=1823503559;ywkey=ywxtrzONuHgB;platform=ios;channel=mqqmina;mpVersion=0.30.0;qq_ver=8.4.10;os_ver=iOS 14.3;mpos_ver=1.20.0;platform=ios;openid=B2444DE6C4B1773F8EFDDD18014A5221","mpversion":"0.30.0","Connection":"keep-alive","Host":"mqqapi.reader.qq.com","User-Agent":"QQ/8.4.10.20 CFNetwork/1209 Darwin/20.2.0","Referer":"https://appservice.qq.com/1110657249/0.30.0/page-frame.html","Accept-Encoding":"gzip, deflate, br","Accept-Language":"zh-cn"}),
   },
+  {
+    qqreadheaderVal: JSON.stringify({"Accept":"*/*","Content-Type":"application/json","ywsession":"8i43b5b1ievf2cvbk9zvicdmk8xbwrbq","Cookie":"ywguid=3027176393;ywkey=yw5wC5xa6M6h;platform=ios;channel=mqqmina;mpVersion=0.30.0","mpversion":"0.30.0","Connection":"keep-alive","Host":"mqqapi.reader.qq.com","User-Agent":"QQ/8.4.17.211 CFNetwork/1209 Darwin/20.2.0","Referer":"https://appservice.qq.com/1110657249/0.30.0/page-frame.html","Accept-Encoding":"gzip, deflate, br","Accept-Language":"zh-cn"}),
+    qqreadtimeurlVal:
+      "https://mqqapi.reader.qq.com/mqq/addReadTimeWithBid?scene=1007&refer=-1&bid=26134185&readTime=8135&read_type=0&conttype=1&read_status=0&chapter_info=%5B%7B%221%22%3A%7B%22readTime%22%3A8135%2C%22pay_status%22%3A0%7D%7D%5D&sp=-1",
+      qqreadtimeheaderVal: JSON.stringify({"Accept":"*/*","Content-Type":"application/json","ywsession":"8i43b5b1ievf2cvbk9zvicdmk8xbwrbq","Cookie":"ywguid=3027176393;ywkey=yw5wC5xa6M6h;platform=ios;channel=mqqmina;mpVersion=0.30.0;qq_ver=8.4.17;os_ver=iOS 14.3;mpos_ver=1.21.0;platform=ios;openid=589941D22ABA5ED8F9DB9B1F4F5630EB","mpversion":"0.30.0","Connection":"keep-alive","Host":"mqqapi.reader.qq.com","User-Agent":"QQ/8.4.17.211 CFNetwork/1209 Darwin/20.2.0","Referer":"https://appservice.qq.com/1110657249/0.30.0/page-frame.html","Accept-Encoding":"gzip, deflate, br","Accept-Language":"zh-cn"}),
+  },
 ];
 
 var tz = "";
