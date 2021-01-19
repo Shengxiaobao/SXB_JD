@@ -2,16 +2,16 @@
 # This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
-name: jd_nian
+name: jd_nh
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 8 * * *'
+    - cron: '1 23 * * *'
   watch:
     types: started
   repository_dispatch:
-    types: nian
+    types: nh
 jobs:
   build:
 
@@ -36,9 +36,9 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【京东炸年兽🧨】'
+      - name: '运行 【京东年货节】'
         run: |
-          node jd_nian.js
+          node jd_nh.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
