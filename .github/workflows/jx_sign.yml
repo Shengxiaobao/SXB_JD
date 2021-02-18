@@ -1,5 +1,5 @@
 
-name: 京喜
+name: 京喜签到
 
 on:
   workflow_dispatch:
@@ -25,11 +25,11 @@ jobs:
         run: |
           cd ~/Scripts
           npm install
-      - name: '运行 【京喜】'
+      - name: '运行 【京喜签到】'
         if: env.JD_COOKIE
         run: |
           cd ~/Scripts
-          node Task/jingxi.js
+          node Task/jx_sign.js
         env:
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
           BARK_PUSH: ${{ secrets.BARK_PUSH }}
